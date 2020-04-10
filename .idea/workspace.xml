@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b67f947a-6999-4372-8bed-4f301744cefd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua" beforeDir="false" afterPath="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/headingLarge.png" beforeDir="false" afterPath="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/headingLarge.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/headingSmall.png" beforeDir="false" afterPath="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/headingSmall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anims/cursornormal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/anims/cursornormal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anims/cursornormal_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/anims/cursornormal_0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anims/icexuick_100/cursornormal_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anims/icexuick_133/cursornormal_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anims/icexuick_166/cursornormal_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anims/icexuick_200/cursornormal_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/anims/icexuick_75/cursornormal_0.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="gui_maplist_panel.lua" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gui_maplist_panel.lua">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="gfx_uiscaler.lua" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_uiscaler.lua">
           <provider selected="true" editor-type-id="text-editor" />
@@ -49,11 +33,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="mainConfig.lua" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainConfig.lua" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="18" column="103" lean-forward="true" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
+              <caret line="18" column="103" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist_cfg/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -102,7 +95,12 @@
       <find>C:\Users\Breno\Documents\My Games\Spring\games\TAP-Chobby.SDD\</find>
       <find>ProfessorKliq-TensionGrowl</find>
       <find>background.jpg</find>
+      <find>professor</find>
+      <find>the secr</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Breno\Documents\My Games\Spring\games\TAP-Chobby.SDD</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,6 +117,7 @@
         <option value="$PROJECT_DIR$/dist_cfg/renderer/index.html" />
         <option value="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/helpSubmenuConfig.lua" />
         <option value="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua" />
+        <option value="$PROJECT_DIR$/dist_cfg/config.json" />
       </list>
     </option>
   </component>
@@ -132,19 +131,15 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="522" />
-    <option name="y" value="231" />
-    <option name="width" value="2265" />
-    <option name="height" value="1689" />
+    <option name="x" value="-11" />
+    <option name="width" value="1443" />
+    <option name="height" value="1404" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,45 +150,26 @@
             <path>
               <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
               <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
-              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="dist_cfg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
               <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
               <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
-              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-              <item name="gameConfig" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
-              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-              <item name="gameConfig" type="462c0819:PsiDirectoryNode" />
-              <item name="tap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
-              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Beyond-All-Reason.SDD" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -274,14 +250,24 @@
       <updated>1586361404306</updated>
       <workItem from="1586361405995" duration="1414000" />
       <workItem from="1586372206864" duration="122000" />
+      <workItem from="1586374025397" duration="9000" />
+      <workItem from="1586476832417" duration="896000" />
     </task>
+    <task id="LOCAL-00001" summary="* Updated config.json with new engine version in use&#10;* Removed unused songs">
+      <created>1586477121958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586477121959</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1536000" />
+    <option name="totallyTimeSpent" value="2441000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
+    <frame x="-7" y="0" width="962" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
@@ -298,7 +284,7 @@
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25773194" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.5522013" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3286517" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -321,7 +307,48 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="* Updated config.json with new engine version in use&#10;* Removed unused songs" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Updated config.json with new engine version in use&#10;* Removed unused songs" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_cursorscaler.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist_cfg/files/chobby_config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="15" column="144" selection-start-line="15" selection-start-column="144" selection-end-line="15" selection-end-column="144" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/helpSubmenuConfig.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2156">
+          <caret line="98" column="75" selection-start-line="98" selection-start-column="75" selection-end-line="98" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="103" lean-forward="true" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gui_maplist_panel.lua">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -463,9 +490,7 @@
     <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/headingLarge.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/background.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/background.jpg" />
     <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gui_settings_window.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2688" />
@@ -516,7 +541,14 @@
     <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="18" column="103" lean-forward="true" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
+          <caret line="18" column="103" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist_cfg/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -4,9 +4,9 @@ TA Prime mutator for Chobby
 
 # Download links
 
-- [Linux] (Coming Soon)
+- [Linux] https://spring-launcher.ams3.digitaloceanspaces.com/FluidPlay/TAP-Chobby/Total%20Annihilation%20Prime.AppImage
 
-- [Windows] (Coming Soon)
+- [Windows] https://spring-launcher.ams3.digitaloceanspaces.com/FluidPlay/TAP-Chobby/Total%20Annihilation%20Prime.exe
 
 # Development setp
 
