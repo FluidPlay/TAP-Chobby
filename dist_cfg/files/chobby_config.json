@@ -1,6 +1,6 @@
 {
     "server" : {
-        "address"    : "road-flag.bnr.la",
+        "address"    : "springrts.com",
         "port"       : 8200,
         "protocol"   : "spring",
         "serverName" : "Official"
