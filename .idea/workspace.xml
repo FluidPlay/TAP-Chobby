@@ -2,7 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67f947a-6999-4372-8bed-4f301744cefd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/LuaMenu/fonts/Akrobat-SemiBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/checkbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/checkbox.psp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/checkbox_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/checkbox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/combobox_ctrl_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/combobox_wnd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/glass2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/glass2.psp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/glassBK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/glassButton.psp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/glassFG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/glass_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/glass_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/glass_line_vert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/hscrollbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/itemlistview_item_fg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/node_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/panel.psp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/panel_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/porgressbar_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/progressbar_empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/progressbar_full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/scrollbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/scrollbar_knob.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/scrollbar_knob.psp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/skin.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/trackbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/trackbar_step.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/trackbar_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/treeview_node.psp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/treeview_node2.psp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/treeview_node_collapsed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/treeview_node_expanded.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua" beforeDir="false" afterPath="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,16 +50,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="gfx_uiscaler.lua" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_uiscaler.lua">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="gfx_resolution_limiter.lua" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_resolution_limiter.lua">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="gfx_limit_idle_fps.lua" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_limit_idle_fps.lua">
           <provider selected="true" editor-type-id="text-editor" />
@@ -37,18 +64,32 @@
         <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="18" column="103" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
+              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist_cfg/config.json">
+      <file leaf-file-name="skin.lua" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/skin.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state relative-caret-position="462">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist_cfg/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skinConfig.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/skinConfig.lua">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="chobby_config.json" pinned="false" current-in-tab="false">
@@ -97,6 +138,8 @@
       <find>background.jpg</find>
       <find>professor</find>
       <find>the secr</find>
+      <find>skin</find>
+      <find>Evolved</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Breno\Documents\My Games\Spring\games\TAP-Chobby.SDD</dir>
@@ -116,8 +159,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/dist_cfg/renderer/index.html" />
         <option value="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/helpSubmenuConfig.lua" />
-        <option value="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua" />
         <option value="$PROJECT_DIR$/dist_cfg/config.json" />
+        <option value="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua" />
+        <option value="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/skin.lua" />
       </list>
     </option>
   </component>
@@ -130,9 +174,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="1443" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="171" />
+    <option name="y" value="57" />
+    <option name="width" value="2136" />
     <option name="height" value="1404" />
   </component>
   <component name="ProjectView">
@@ -140,6 +185,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,30 +205,56 @@
               <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
               <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
+              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
+              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
+              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+              <item name="chili" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
+              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+              <item name="chili" type="462c0819:PsiDirectoryNode" />
+              <item name="skins" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Beyond-All-Reason.SDD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chobby.SDD" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Breno\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\fonts" />
+      <recent name="C:\Users\Breno\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\widgets\chili\skins" />
+      <recent name="C:\Users\MaDDo\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\configs\gameConfig\tap" />
+      <recent name="C:\Users\MaDDo\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\configs\gameConfig\tap\skinning\loadpictures" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MaDDo\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\configs\gameConfig\tap\skinning" />
       <recent name="C:\Users\MaDDo\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\configs\gameConfig\tap" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\MaDDo\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\configs\gameConfig\tap" />
-      <recent name="C:\Users\MaDDo\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\configs\gameConfig\tap\skinning\loadpictures" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,6 +326,7 @@
       <workItem from="1586372206864" duration="122000" />
       <workItem from="1586374025397" duration="9000" />
       <workItem from="1586476832417" duration="896000" />
+      <workItem from="1586551562542" duration="1342000" />
     </task>
     <task id="LOCAL-00001" summary="* Updated config.json with new engine version in use&#10;* Removed unused songs">
       <created>1586477121958</created>
@@ -264,10 +339,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2441000" />
+    <option name="totallyTimeSpent" value="3783000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="962" height="936" extended-state="0" />
+    <frame x="114" y="38" width="1424" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
@@ -284,7 +359,7 @@
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.5522013" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.41494083" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3286517" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -312,9 +387,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="* Updated config.json with new engine version in use&#10;* Removed unused songs" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_cursorscaler.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist_cfg/files/chobby_config.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -478,9 +550,6 @@
     <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/taskbarLogo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/skinConfig.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -538,17 +607,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="18" column="103" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/skinConfig.lua">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dist_cfg/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/skin.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
