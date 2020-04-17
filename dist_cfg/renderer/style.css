@@ -4,7 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-	text-shadow: 1px 1px 0px #000
+	text-shadow: 1px 1px 0 #000
 }
 
 .video{
