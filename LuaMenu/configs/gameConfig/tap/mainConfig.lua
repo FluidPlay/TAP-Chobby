@@ -30,6 +30,10 @@ if VFS.FileExists(randomBackgroundImage) then
 	background.image = randomBackgroundImage
 end
 
+-- MaDD: Trying to move in-game "Menu" button to the left
+local interfaceHolder = WG.Chobby.interfaceRoot.GetIngameInterfaceHolder()
+interfaceHolder.switchToMenuButton.right = 100 --2
+
 local minimapOverridePath  = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/minimapOverride/"
 local minimapThumbnailPath = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .. "/minimapThumbnail/"
 

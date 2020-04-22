@@ -630,6 +630,7 @@ local settingsConfig = {
 }
 
 local settingsDefault = {
+    mousedragscrollthreshold = -1,
 	--WaterType = "Refractive",
 	--WaterQuality = "High",
 	--DeferredRendering = "On",
