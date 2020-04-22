@@ -28,6 +28,11 @@ local enabled = true
 function widget:Initialize()
 	if WG.Chobby and WG.Chobby.Configuration then
 		drawAtFullspeed = WG.Chobby.Configuration.drawAtFullSpeed
+
+        -- MaDD: Trying to move in-game "Menu" button to the left
+        local interfaceRoot = WG.Chobby.interfaceRoot
+        local interfaceHolder = interfaceRoot.GetIngameInterfaceHolder()
+        interfaceHolder.switchToMenuButton.right = 100 --2
 	end
 end
 
