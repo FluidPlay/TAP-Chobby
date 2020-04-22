@@ -43,12 +43,14 @@ end
 
 function NearestValue(table, number)
 	local smallestSoFar, smallestIndex
-	for i, y in ipairs(table) do
-		if not smallestSoFar or (math.abs(number-y) < smallestSoFar) then
-			smallestSoFar = math.abs(number-y)
-			smallestIndex = i
-		end
-	end
+    if type(table) == "table" then
+        for i, y in ipairs(table) do
+            if not smallestSoFar or (math.abs(number-y) < smallestSoFar) then
+                smallestSoFar = math.abs(number-y)
+                smallestIndex = i
+            end
+        end
+    end
 	return smallestIndex, table[smallestIndex]
 end
 
