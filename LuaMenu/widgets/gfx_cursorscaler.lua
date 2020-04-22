@@ -42,16 +42,17 @@ for k, subdir in pairs(VFS.SubDirs('anims')) do
 end
 
 function NearestValue(table, number)
-	local smallestSoFar, smallestIndex
+	local smallestSoFar, smallestIndex, smallestElement
     if type(table) == "table" then
         for i, y in ipairs(table) do
             if not smallestSoFar or (math.abs(number-y) < smallestSoFar) then
                 smallestSoFar = math.abs(number-y)
                 smallestIndex = i
+                smallestElement = table[smallestIndex]
             end
         end
     end
-	return smallestIndex, table[smallestIndex]
+	return smallestIndex, smallestElement
 end
 
 function widget:ViewResize()

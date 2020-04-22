@@ -32,7 +32,7 @@ function widget:Initialize()
         -- MaDD: Trying to move in-game "Menu" button to the left
         local interfaceRoot = WG.Chobby.interfaceRoot
         local interfaceHolder = interfaceRoot.GetIngameInterfaceHolder()
-        interfaceHolder.switchToMenuButton.right = 100 --2
+        interfaceHolder.switchToMenuButton:SetPos(100, nil, nil, nil)
 	end
 end
 
