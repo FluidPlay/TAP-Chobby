@@ -1,34 +1,76 @@
 {
-    "title" : "Total Annihilation Prime",
-    "setups" : [
-        {
-            "package": {
-                "id": "test",
-                "display": "Alpha"
-            },
-            "downloads": {
-                "games" : ["tap:test", "chobby:test", "tap-chobby:test"],
-                "engines" : [ "104.0.1-1477-g8ecf38a maintenance"]
-            },
-            "no_start_script" : true,
-            "launch": {
-                "start_args" : ["--menu", "rapid://tap-chobby:test"]
-            }
+  "title" : "Total Annihilation Prime",
+  "setups" : [
+    {
+      "package": {
+        "id": "test",
+        "display": "Alpha"
+      },
+      "downloads": {
+        "engines" : [ "104.0.1-1477-g8ecf38a maintenance"]
+      },
+      "resources": [ {"url": "http://morts.co/files/pool.zip",
+        "destination": "pool",
+        "extract": true
+      }],
+      "no_start_script" : true,
+      "launch": {
+        "start_args" : ["--menu"]
+      }
+    },
+    {
+        "package": {
+            "id": "dev-lobby",
+            "display": "Dev Lobby"
         },
-        {
-            "package": {
-                "id": "dev-lobby",
-                "display": "Dev Lobby"
-            },
-            "downloads": {
-                "engines" : [ "104.0.1-1477-g8ecf38a maintenance" ]
-            },
-            "no_start_script" : true,
-            "no_downloads" : true,
-            "launch": {
-                "start_args" : ["--menu", "TAP Chobby $VERSION"]
-            }
+        "downloads": {
+            "engines" : [ "104.0.1-1477-g8ecf38a maintenance" ]
+        },
+        "no_start_script" : true,
+        "no_downloads" : true,
+        "launch": {
+            "start_args" : ["--menu", "TAP Chobby $VERSION"]
         }
+    }
 
-    ]
+  ]
 }
+
+//{
+//    "title" : "Total Annihilation Prime",
+//    "setups" : [
+//      {
+//        "package": {
+//          "id": "test",
+//          "display": "Alpha"
+//        },
+//        "downloads": {
+//          "games" : ["tap:test", "chobby:test", "tap-chobby:test"],
+//          "engines" : [ "104.0.1-1477-g8ecf38a maintenance"]
+//        },
+//        "resources": [ {"url": "http://morts.co/files/pool.zip",
+//          "destination": "data/pool",
+//          "extract": true
+//        }],
+//        "no_start_script" : true,
+//        "launch": {
+//          "start_args" : ["--menu", "rapid://tap-chobby:test"]
+//        }
+//      },
+//        {
+//            "package": {
+//                "id": "dev-lobby",
+//                "display": "Dev Lobby"
+//            },
+//            "downloads": {
+//                "engines" : [ "104.0.1-1477-g8ecf38a maintenance" ]
+//            },
+//            "no_start_script" : true,
+//            "no_downloads" : true,
+//            "launch": {
+//                "start_args" : ["--menu", "TAP Chobby $VERSION"]
+//            }
+//        }
+//
+//    ]
+//}

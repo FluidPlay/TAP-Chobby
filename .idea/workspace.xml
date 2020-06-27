@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b67f947a-6999-4372-8bed-4f301744cefd" name="Default" comment="">
+    <list default="true" id="b67f947a-6999-4372-8bed-4f301744cefd" name="Default" comment="* Trying to disable in-game menu button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuaMenu/widgets/chili/themes/theme.lua" beforeDir="false" afterPath="$PROJECT_DIR$/LuaMenu/widgets/chili/themes/theme.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist_cfg/renderer/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist_cfg/renderer/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mapWhitelist.lua" beforeDir="false" afterPath="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mapWhitelist.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist_cfg/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist_cfg/config.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,44 +18,44 @@
       <file leaf-file-name="mainConfig.lua" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+            <state relative-caret-position="902">
+              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.lua" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/chili/themes/theme.lua">
+      <file leaf-file-name="gfx_limit_idle_fps.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_limit_idle_fps.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="770">
+              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skin.lua" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/skin.lua">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist_cfg/config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="396">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapWhitelist.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mapWhitelist.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springsettings.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/springsettings.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1342">
+              <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -64,34 +64,26 @@
         <entry file="file://$PROJECT_DIR$/dist_cfg/files/chobby_config.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/index.html">
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist_cfg/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+            <state relative-caret-position="374">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-icon.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/spring-icon.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="renderer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/renderer.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="bulmaswatch.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/bulmaswatch.min.css">
+      <file leaf-file-name="gui_maplist_panel.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gui_maplist_panel.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1848" />
+            <state relative-caret-position="22">
+              <caret line="255" column="55" selection-start-line="255" selection-start-column="55" selection-end-line="255" selection-end-column="55" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -109,7 +101,25 @@
       <find>Evolved</find>
       <find>skin</find>
       <find>evolved</find>
+      <find>&quot;Menu</find>
+      <find>settingsMenu.lua</find>
+      <find>&quot;Game&quot;</find>
+      <find>menu</find>
+      <find>== &quot;table&quot;</find>
+      <find>:setPos</find>
+      <find>desert</find>
+      <find>map</find>
+      <find>MapItems</find>
+      <find>loadstaticco</find>
+      <find>maps</find>
+      <find>folso</find>
+      <find>deserttriad</find>
+      <find>true</find>
+      <find>&quot;package&quot;:</find>
     </findStrings>
+    <replaceStrings>
+      <replace>false</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Breno\Documents\My Games\Spring\games\TAP-Chobby.SDD</dir>
     </dirStrings>
@@ -128,11 +138,18 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/dist_cfg/renderer/index.html" />
         <option value="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/helpSubmenuConfig.lua" />
-        <option value="$PROJECT_DIR$/dist_cfg/config.json" />
         <option value="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/skin.lua" />
-        <option value="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua" />
         <option value="$PROJECT_DIR$/LuaMenu/widgets/chili/themes/theme.lua" />
+        <option value="$PROJECT_DIR$/LuaMenu/widgets/chili/skins/Evolved/skin.lua" />
+        <option value="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/settingsMenu.lua" />
+        <option value="$PROJECT_DIR$/LuaMenu/widgets/gui_settings_window.lua" />
+        <option value="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua" />
+        <option value="$PROJECT_DIR$/LuaMenu/widgets/gfx_cursorscaler.lua" />
+        <option value="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/springsettings.lua" />
+        <option value="$PROJECT_DIR$/LuaMenu/widgets/gfx_limit_idle_fps.lua" />
         <option value="$PROJECT_DIR$/dist_cfg/renderer/style.css" />
+        <option value="$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mapWhitelist.lua" />
+        <option value="$PROJECT_DIR$/dist_cfg/config.json" />
       </list>
     </option>
   </component>
@@ -145,18 +162,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="171" />
-    <option name="y" value="57" />
-    <option name="width" value="2136" />
-    <option name="height" value="1404" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="93" />
+    <option name="y" value="41" />
+    <option name="width" value="2332" />
+    <option name="height" value="1405" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -173,32 +189,28 @@
             <path>
               <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
               <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
-              <item name="dist_cfg" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
-              <item name="dist_cfg" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
-              <item name="dist_cfg" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
-              <item name="dist_cfg" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
               <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
               <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
+              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+              <item name="gameConfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
+              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+              <item name="gameConfig" type="462c0819:PsiDirectoryNode" />
+              <item name="tap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
@@ -212,23 +224,6 @@
               <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
               <item name="widgets" type="462c0819:PsiDirectoryNode" />
               <item name="chili" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
-              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="chili" type="462c0819:PsiDirectoryNode" />
-              <item name="skins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TAP-Chobby.SDD" type="462c0819:PsiDirectoryNode" />
-              <item name="LuaMenu" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-              <item name="chili" type="462c0819:PsiDirectoryNode" />
-              <item name="skins" type="462c0819:PsiDirectoryNode" />
-              <item name="TAP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TAP-Chobby.SDD" type="b2602c69:ProjectViewProjectNode" />
@@ -242,6 +237,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -253,15 +249,17 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Breno\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\fonts" />
-      <recent name="C:\Users\Breno\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\widgets\chili\skins" />
-      <recent name="C:\Users\MaDDo\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\configs\gameConfig\tap" />
-      <recent name="C:\Users\MaDDo\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\configs\gameConfig\tap\skinning\loadpictures" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Breno\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\widgets\chili\skins\Evolved\fonts" />
       <recent name="C:\Users\MaDDo\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\configs\gameConfig\tap\skinning" />
       <recent name="C:\Users\MaDDo\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\configs\gameConfig\tap" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Breno\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\widgets\chili\skins\TAP" />
+      <recent name="C:\Users\Breno\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\widgets\chili\skins" />
+      <recent name="C:\Users\Breno\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\fonts" />
+      <recent name="C:\Users\MaDDo\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\configs\gameConfig\tap" />
+      <recent name="C:\Users\MaDDo\Documents\My Games\Spring\games\TAP-Chobby.SDD\LuaMenu\configs\gameConfig\tap\skinning\loadpictures" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,7 +333,11 @@
       <workItem from="1586476832417" duration="896000" />
       <workItem from="1586551562542" duration="1342000" />
       <workItem from="1586661624560" duration="654000" />
-      <workItem from="1587000601513" duration="2098000" />
+      <workItem from="1587000601513" duration="3318000" />
+      <workItem from="1587149971598" duration="3717000" />
+      <workItem from="1587491382661" duration="6550000" />
+      <workItem from="1587573427436" duration="2741000" />
+      <workItem from="1593214426008" duration="2529000" />
     </task>
     <task id="LOCAL-00001" summary="* Updated config.json with new engine version in use&#10;* Removed unused songs">
       <created>1586477121958</created>
@@ -365,14 +367,77 @@
       <option name="project" value="LOCAL" />
       <updated>1587001955496</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="* Force-updating the build (2)">
+      <created>1587082658790</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587082658790</updated>
+    </task>
+    <task id="LOCAL-00006" summary="* Re-adding Evolved skin, overwriting default font with Akrobat">
+      <created>1587198954097</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587198954097</updated>
+    </task>
+    <task id="LOCAL-00007" summary="* Trying to shift in-game 'Menu' button to the left">
+      <created>1587536910309</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587536910309</updated>
+    </task>
+    <task id="LOCAL-00008" summary="* Moving menu-button shifter to a proper widget">
+      <created>1587537795696</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587537795696</updated>
+    </task>
+    <task id="LOCAL-00009" summary="* Temp-Removing menu button-shifting code (moved to TAP itself)">
+      <created>1587538792422</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587538792422</updated>
+    </task>
+    <task id="LOCAL-00010" summary="* attempt #3">
+      <created>1587539556937</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587539556937</updated>
+    </task>
+    <task id="LOCAL-00011" summary="* Attempt #4">
+      <created>1587540265636</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587540265636</updated>
+    </task>
+    <task id="LOCAL-00012" summary="* Updating some default Spring Settings">
+      <created>1587541280657</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587541280657</updated>
+    </task>
+    <task id="LOCAL-00013" summary="* Trying to disable in-game menu button">
+      <created>1587574124730</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587574124730</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6535000" />
+    <option name="totallyTimeSpent" value="23292000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
+    <frame x="-195" y="35" width="1865" height="1124" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
@@ -380,16 +445,16 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.3257979" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="LuaCheck" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3293011" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.29047906" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.28523678" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3286517" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -400,7 +465,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Messages" order="5" visible="true" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Messages" order="5" visible="true" weight="0.32795697" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -417,28 +482,23 @@
     <MESSAGE value="* Removed Exo2-SemiBold.otf&#10;* TAP Skin font should now be applied properly" />
     <MESSAGE value="* Reverting temporarily to Evolved Skin" />
     <MESSAGE value="* Foce-updating the build" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Foce-updating the build" />
+    <MESSAGE value="* Force-updating the build (2)" />
+    <MESSAGE value="* Re-adding Evolved skin, overwriting default font with Akrobat" />
+    <MESSAGE value="* Trying to shift in-game 'Menu' button to the left" />
+    <MESSAGE value="* Moving menu-button shifter to a proper widget" />
+    <MESSAGE value="* Temp-Removing menu button-shifting code (moved to TAP itself)" />
+    <MESSAGE value="* attempt #3" />
+    <MESSAGE value="* Attempt #4" />
+    <MESSAGE value="* Updating some default Spring Settings" />
+    <MESSAGE value="* Trying to disable in-game menu button" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Trying to disable in-game menu button" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_limit_idle_fps.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_cursorscaler.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist_cfg/files/chobby_config.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="15" column="144" lean-forward="true" selection-start-line="15" selection-start-column="144" selection-end-line="15" selection-end-column="144" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -479,65 +539,10 @@
     <entry file="file://$PROJECT_DIR$/.luacheckrc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/aiBlacklist.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/gameUnitInformation.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/linkFunctions.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mapWhitelist.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3736" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/rankFunction.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/settingsMenu.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/ModOptions.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3976">
-          <caret line="193" selection-start-line="193" selection-end-line="203" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skirmishDefault.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/singleplayerMenu.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/springsettings.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/taskbarLogo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/taskbarLogo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/logo.png">
@@ -550,24 +555,7 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/background.jpg" />
-    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gui_settings_window.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2688" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gui_maplist_panel.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_uiscaler.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_resolution_limiter.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_limit_idle_fps.lua">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_cursorscaler.lua">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -580,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/helpSubmenuConfig.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2156">
-          <caret line="98" column="75" selection-start-line="98" selection-start-column="75" selection-end-line="98" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skinning/skinConfig.lua">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -594,52 +575,38 @@
     <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/Akrobat-SemiBold.otf">
       <provider selected="true" editor-type-id="fontseditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist_cfg/config.json">
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/skin.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/bulmaswatch.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/chili/skins/Evolved/fonts/README">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/Akrobat-SemiBold.otf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/chili/skins/Evolved/fonts/Akrobat-SemiBold.otf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/chili/skins/Evolved/skin.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist_cfg/build/icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/chili/skins/TAP/skin.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/chili/themes/theme.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist_cfg/files/chobby_config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/bulmaswatch.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1848" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
+        <state relative-caret-position="660">
           <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
         </state>
       </provider>
@@ -650,10 +617,146 @@
     <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/spring-icon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/style.css">
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/chili/themes/theme.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/taskbarLogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/ModOptions.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="193" selection-start-line="193" selection-end-line="203" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/rankFunction.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/aiBlacklist.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/gameUnitInformation.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_uiscaler.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#242#815#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_cursorscaler.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/settingsMenu.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#2339#14239#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/singleplayerMenu.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/skirmishDefault.lua">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mainConfig.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gui_settings_window.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5965">
+          <caret line="538" column="22" selection-start-line="538" selection-start-column="22" selection-end-line="538" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/helpSubmenuConfig.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2612">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/linkFunctions.lua">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gfx_limit_idle_fps.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist_cfg/renderer/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/widgets/gui_maplist_panel.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="255" column="55" selection-start-line="255" selection-start-column="55" selection-end-line="255" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/mapWhitelist.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuaMenu/configs/gameConfig/tap/springsettings.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist_cfg/files/chobby_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist_cfg/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
