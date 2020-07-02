@@ -15,7 +15,7 @@ body {
 }
 video{
   position: absolute;
-  left: 0px;
+  left: 0;
   top: 0px;
   right: 0;
   bottom: 0;
