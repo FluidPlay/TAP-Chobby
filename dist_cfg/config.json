@@ -4,29 +4,44 @@
     {
       "package": {
         "id": "test",
-        "display": "Alpha"
+        "display": "Test"
       },
       "downloads": {
-        "engines" : [ "104.0.1-1477-g8ecf38a maintenance"]
+        "games" : ["tap:test", "chobby:test", "tap-chobby:test"],
+        "engines" : [ "104.0.1-1510-g89bb8e3 maintenance" ]
       },
       "no_start_script" : true,
       "launch": {
-        "start_args" : ["--menu"]
+        "start_args" : ["--menu", "rapid://tap-chobby:test"]
       }
     },
     {
-        "package": {
-            "id": "dev-lobby",
-            "display": "Dev Lobby"
-        },
-        "downloads": {
-            "engines" : [ "104.0.1-1477-g8ecf38a maintenance" ]
-        },
-        "no_start_script" : true,
-        "no_downloads" : true,
-        "launch": {
-            "start_args" : ["--menu", "TAP Chobby $VERSION"]
-        }
+      "package": {
+        "id": "test",
+        "display": "Alpha",
+        "portable" : true
+      },
+      "downloads": {},
+      "no_start_script" : true,
+      "no_downloads" : true,
+      "launch": {
+        "start_args" : ["--menu", "rapid://tap-chobby:test"],
+        "engine": "104.0.1-1510-g89bb8e3 maintenance"
+      }
+    },
+    {
+      "package": {
+        "id": "dev-lobby",
+        "display": "Dev Lobby"
+      },
+      "downloads": {
+        "engines" : [ "104.0.1-1510-g89bb8e3 maintenance" ]
+      },
+      "no_start_script" : true,
+      "no_downloads" : true,
+      "launch": {
+        "start_args" : ["--menu", "TAP Chobby $VERSION"]
+      }
     }
   ]
 }
