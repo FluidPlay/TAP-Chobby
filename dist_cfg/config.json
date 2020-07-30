@@ -17,13 +17,14 @@
     },
     {
       "package": {
-        "id": "test",
-        "display": "Alpha",
+        "id": "test-portable",
+        "display": "Portable",
         "portable" : true
       },
-      "downloads": {},
+      "downloads": {
+        "games" : ["tap:test", "chobby:test", "tap-chobby:test"]
+      },
       "no_start_script" : true,
-      "no_downloads" : true,
       "launch": {
         "start_args" : ["--menu", "rapid://tap-chobby:test"],
         "engine": "104.0.1-1510-g89bb8e3 maintenance"
