@@ -16,7 +16,12 @@
   }
 
   #main-content {
-	background-image: none;
+	background-image: url(images/background.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 0 #000
   }
 
   @font-face {
