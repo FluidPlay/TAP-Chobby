@@ -32,6 +32,21 @@
     },
     {
       "package": {
+        "id": "stable-portable",
+        "display": "Portable",
+        "portable" : true
+      },
+      "downloads": {
+        "games" : ["tap:stable", "chobby:test", "tap-chobby:test"]
+      },
+      "no_start_script" : true,
+      "launch": {
+        "start_args" : ["--menu", "rapid://tap-chobby:test"],
+        "engine": "105.0"
+      }
+    },
+    {
+      "package": {
         "id": "dev-lobby",
         "display": "Dev Lobby"
       },
