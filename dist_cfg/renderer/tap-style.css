@@ -35,7 +35,7 @@
 
   #config-select__div {
 	right: 20px;
-	opacity: 0.2;
+	opacity: 0.20;
   }
   #config-select__div:hover {
 	opacity: 0.75;
