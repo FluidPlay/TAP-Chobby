@@ -1,9 +1,9 @@
 {
     "server" : {
-        "address"    : "springrts.com",
+        "address"    : "springfightclub.com",
         "port"       : 8200,
         "protocol"   : "spring",
-        "serverName" : "Official"
+        "serverName" : "SpringFightClub"
     },
     "game" : "tap"
 }

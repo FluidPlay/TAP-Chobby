@@ -934,6 +934,76 @@ local function GetLobbyTabControls()
 	}
 	offset = offset + ITEM_OFFSET
 
+    --- Added server+port settings below (MaDDoX)
+    children[#children + 1] = Label:New {
+        x = 20,
+        y = offset + TEXT_OFFSET,
+        width = 90,
+        height = 40,
+        valign = "top",
+        align = "left",
+        font = Configuration:GetFont(2),
+        caption = "Server Address",
+    }
+    children[#children + 1] = EditBox:New {
+        x = COMBO_X,
+        y = offset,
+        width = COMBO_WIDTH,
+        height = 30,
+        text = Configuration.serverAddress,
+        font = Configuration:GetFont(2),
+        useIME = false,
+        OnFocusUpdate = {
+            function (obj)
+                if obj.focused then
+                    return
+                end
+
+                Configuration.serverAddress = obj.text
+                obj:SetText(Configuration.serverAddress)
+            end
+        }
+    }
+    offset = offset + ITEM_OFFSET
+
+    children[#children + 1] = Label:New {
+        x = 20,
+        y = offset + TEXT_OFFSET,
+        width = 90,
+        height = 40,
+        valign = "top",
+        align = "left",
+        font = Configuration:GetFont(2),
+        caption = "Server Port",
+    }
+    children[#children + 1] = EditBox:New {
+        x = COMBO_X,
+        y = offset,
+        width = COMBO_WIDTH,
+        height = 30,
+        text = tostring(Configuration.serverPort),
+        font = Configuration:GetFont(2),
+        useIME = false,
+        OnFocusUpdate = {
+            function (obj)
+                if obj.focused then
+                    return
+                end
+
+                local newValue = tonumber(obj.text)
+
+                if not newValue then
+                    obj:SetText(tostring(Configuration.serverPort))
+                    return
+                end
+
+                Configuration.serverPort = math.floor(0.5 + math.max(0, newValue))
+                obj:SetText(tostring(Configuration.serverPort))
+            end
+        }
+    }
+    offset = offset + ITEM_OFFSET
+
 	local function onConfigurationChange(listener, key, value)
 		if freezeSettings then
 			return

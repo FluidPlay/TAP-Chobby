@@ -40,7 +40,7 @@ local minimapThumbnailPath = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .
 local externalFuncAndData = {
 	dirName                = "tap",
 	name                   = "Total Annihilation Prime",
-	--_defaultGameArchiveName = "??", fill this in.
+	_defaultGameArchiveName = "TAPrime_v2.6RC5.sdz", --, fill this in.
 	_defaultGameRapidTag   = "tap:test", -- Do not read directly
 	--editor                 = "rapid://sb-tap:test",
 	--editor                 = "SpringBoard TAP $VERSION",
@@ -66,7 +66,7 @@ local externalFuncAndData = {
 	minimapOverridePath    = minimapOverridePath,
 	minimapThumbnailPath   = minimapThumbnailPath,
 	ignoreServerVersion    = true,
-	--battleListOnlyShow     = "Total Annihilation Prime",
+	--battleListOnlyShow     = "Total Atomization Prime",
 	disableBattleListHostButton = true, -- Hides "Host" button as this function is not working as one might imagine
 	disableSteam 				 = true, -- removes settings related to steam
 	disablePlanetwars 			 = true, -- removes settings related to planetwars
@@ -78,10 +78,11 @@ local externalFuncAndData = {
 	link_maps               = link_maps,
 	--openTrack = '',	-- dont leave empty
 	randomTrackList = {
-		"LuaMenu/configs/gameConfig/tap/lobbyMusic/The Secret of Ayers Rock.ogg",
+        "LuaMenu/configs/gameConfig/tap/lobbyMusic/tap_opening.ogg",
+		--"LuaMenu/configs/gameConfig/tap/lobbyMusic/The Secret of Ayers Rock.ogg",
 		--"LuaMenu/configs/gameConfig/tap/lobbyMusic/RobRichert-AliasZero.ogg",
 	},
-	disableColorChoosing = true,
+	disableColorChoosing = false, --true,
 }
 
 function externalFuncAndData.CheckAvailability()
