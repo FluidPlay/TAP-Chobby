@@ -39,7 +39,7 @@ local minimapThumbnailPath = LUA_DIRNAME .. "configs/gameConfig/" .. shortname .
 
 local externalFuncAndData = {
 	dirName                = "tap",
-	name                   = "Total Annihilation Prime",
+	name                   = "Total Atomization Prime",
 	_defaultGameArchiveName = "TAPrime_v2.6RC5.sdz", --, fill this in.
 	_defaultGameRapidTag   = "tap:test", -- Do not read directly
 	--editor                 = "rapid://sb-tap:test",
