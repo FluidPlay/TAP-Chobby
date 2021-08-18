@@ -966,6 +966,10 @@ local function GetLobbyTabControls()
     }
     offset = offset + ITEM_OFFSET
 
+    ------
+
+    --local EditBoxTAP = EditBox:New { x = COMBO_X }
+
     children[#children + 1] = Label:New {
         x = 20,
         y = offset + TEXT_OFFSET,
@@ -976,7 +980,7 @@ local function GetLobbyTabControls()
         font = Configuration:GetFont(2),
         caption = "Server Port",
     }
-    children[#children + 1] = EditBox:New {
+    children[#children + 1] = EditBox:New { --EditBoxTAP
         x = COMBO_X,
         y = offset,
         width = COMBO_WIDTH,
@@ -1003,6 +1007,8 @@ local function GetLobbyTabControls()
         }
     }
     offset = offset + ITEM_OFFSET
+
+    ------
 
 	local function onConfigurationChange(listener, key, value)
 		if freezeSettings then
